@@ -1,0 +1,44 @@
+{
+  "id": "c3ef51a2-70cb-4126-9f65-465f9bd1c01b",
+  "name": "Onetech",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "platform": "1.0.0.0",
+  
+  "dependencies": [
+    {
+      "id": "287c2f5e-e9bb-40dd-bf05-b55c4a360c77",
+      "publisher": "Bluefort Ltd",
+      "name": "DrakoLtdBCExt",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "name": "System Application",
+      "version": "1.0.0.0",
+      "publisher": "Microsoft"
+    },
+    {
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "name": "Base Application",
+      "version": "20.3.42673.43026",
+      "publisher": "Microsoft"
+    }
+  ],
+  "screenshots": [],
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://Onetech.com/help/",
+  "runtime": "9.0"
+}
