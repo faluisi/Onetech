@@ -99,6 +99,33 @@ query 50008 GlEntriesBI
             column(G_L_Account_Name; "G/L Account Name")
             {
             }
+            column(Reversed; Reversed)
+            {
+            }
+            dataitem(Sales_Invoice_Header; "Sales Invoice Header")
+            {
+                DataItemLink = "No." = G_L_Entry."Document No.";
+                column(Sell_to_Customer_No_; "Sell-to Customer No.")
+                {
+                }
+                column(Sell_to_Customer_Name; "Sell-to Customer Name")
+                {
+                }
+                column(Period_Start; "Period Start")
+                {
+                }
+                dataitem(Purch__Inv__Header; "Purch. Inv. Header")
+                {
+                    DataItemLink = "No." = G_L_Entry."Document No.";
+                    column(Buy_from_Vendor_No_; "Buy-from Vendor No.")
+                    {
+                    }
+                    column(Buy_from_Vendor_Name; "Buy-from Vendor Name")
+                    {
+                    }
+                }
+            }
         }
+
     }
 }

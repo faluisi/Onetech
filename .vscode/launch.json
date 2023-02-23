@@ -6,7 +6,7 @@
         "type": "al",
         "request": "launch",
         "name": "live",
-        "server": "http://localhost",
+        "server": "http://10.0.0.4",
         "serverInstance": "DevLive",
         "port": 2005,
         "authentication": "UserPassword",
