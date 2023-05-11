@@ -1,4 +1,4 @@
-pageextension 50064 PostedSalesInvoicesExtOneTech extends "Posted Sales Invoice"
+pageextension 50094 PostedSalesInvoicesExtOneTech extends "Posted Sales Invoice"
 {
     layout
     {

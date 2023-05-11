@@ -15,6 +15,25 @@ pageextension 50067 GeneralLedgerEntriesExtOne extends "General Ledger Entries"
             }
 
         }
+        addafter("Document Date")
+        {
+            field("System-Created Entry90050"; Rec."System-Created Entry")
+            {
+                ApplicationArea = All;
+            }
+            field(SystemCreatedAt63406; Rec.SystemCreatedAt)
+            {
+                ApplicationArea = All;
+            }
+            field(SystemCreatedBy51542; Rec.SystemCreatedBy)
+            {
+                ApplicationArea = All;
+            }
+        }
+        modify("Additional-Currency Amount")
+        {
+            Visible = true;
+        }
     }
     actions
     {

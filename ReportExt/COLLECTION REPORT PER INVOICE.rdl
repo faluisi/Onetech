@@ -2781,12 +2781,6 @@ End Function
         <Field Name="AmountLCY_CustLedgerEntryFormat">
           <DataField>AmountLCY_CustLedgerEntryFormat</DataField>
         </Field>
-        <Field Name="sitecode">
-          <DataField>sitecode</DataField>
-        </Field>
-        <Field Name="sitename">
-          <DataField>sitename</DataField>
-        </Field>
         <Field Name="Documentno">
           <DataField>Documentno</DataField>
         </Field>

@@ -1,4 +1,4 @@
-tableextension 50029 FixedAssetExtOnetech extends "Fixed Asset"
+tableextension 50033 FixedAssetExtOnetech extends "Fixed Asset"
 {
     fields
     {

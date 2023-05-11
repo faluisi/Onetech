@@ -1,4 +1,4 @@
-tableextension 50030 VendorLedgerEntry extends "Vendor Ledger Entry"
+tableextension 50080 VendorLedgerEntry extends "Vendor Ledger Entry"
 {
     fields
     {

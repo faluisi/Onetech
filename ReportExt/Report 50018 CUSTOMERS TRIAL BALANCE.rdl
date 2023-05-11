@@ -3957,12 +3957,6 @@ End Function
         <Field Name="Customer_Posting_Group">
           <DataField>Customer_Posting_Group</DataField>
         </Field>
-        <Field Name="sitecode">
-          <DataField>sitecode</DataField>
-        </Field>
-        <Field Name="sitename">
-          <DataField>sitename</DataField>
-        </Field>
       </Fields>
       <Query>
         <DataSourceName>DataSource</DataSourceName>

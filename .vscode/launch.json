@@ -15,7 +15,8 @@
         "breakOnError": true,
         "launchBrowser": true,
         "enableLongRunningSqlStatements": true,
-        "enableSqlInformationDebugger": true
+        "enableSqlInformationDebugger": true,
+        "schemaUpdateMode": "ForceSync"
     }, 
   
     {
@@ -36,25 +37,24 @@
       "numberOfSqlStatements": 10
   },
   
-      {
-        "name": "Debug",
-      "type": "al",
-      "request": "launch",
-      "server": "http://localhost",
-      "serverInstance": "bc200",
-      "port": 7704,
-      "authentication": "UserPassword",
-      "startupObjectId": 22,
-      "breakOnError": true,
-      "breakOnRecordWrite": false,
-      "launchBrowser": true,
-      "enableSqlInformationDebugger": true,
-      "enableLongRunningSqlStatements": true,
-      "longRunningSqlStatementsThreshold": 500,
-      "numberOfSqlStatements": 10,
-      "schemaUpdateMode": "ForceSync" 
-        
-    },
+  {
+    "name": "Debug",
+    "type": "al",
+    "request": "launch",
+    "server": "http://localhost",
+    "serverInstance": "bc200",
+    "port": 7049,
+    "authentication": "UserPassword",
+    "startupObjectId": 22,
+    "breakOnError": true,
+    "breakOnRecordWrite": false,
+    "launchBrowser": true,
+    "enableSqlInformationDebugger": true,
+    "enableLongRunningSqlStatements": true,
+    "longRunningSqlStatementsThreshold": 500,
+    "numberOfSqlStatements": 10,
+    "schemaUpdateMode": "ForceSync"
+  },
       {
         "type": "al",
               "request": "launch",

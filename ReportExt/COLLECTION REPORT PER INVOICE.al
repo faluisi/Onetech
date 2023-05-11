@@ -48,11 +48,11 @@ report 50019 "Report 50019 COLLEC. REP. INV."
             column(AmountLCY_CustLedgerEntry; "Amount (LCY)")
             {
             }
-            column(sitecode; site."Site Code")
-            {
-            }
-            column(sitename; site."Site Name")
-            { }
+            // column(sitecode; site."Site Code")
+            // {
+            // }
+            // column(sitename; site."Site Name")
+            // { }
             dataitem(DetailedCustLedger; "Integer")
             {
                 DataItemTableView = SORTING(Number);
@@ -107,12 +107,12 @@ report 50019 "Report 50019 COLLEC. REP. INV."
                 IF cust.GET("Customer No.") THEN;
                 if "Document Type" = "Document Type"::Invoice then begin
                     if inv.Get("Document No.") then begin
-                        if site.Get("Customer No.", inv.Site) then;
+                        //if site.Get("Customer No.", inv.Site) then;
                     end;
                 end;
                 if "Document Type" = "Document Type"::"Credit Memo" then begin
                     if crm.Get("Document No.") then begin
-                        if site.Get("Customer No.", crm.Site) then;
+                        //if site.Get("Customer No.", crm.Site) then;
                     end;
                 end;
             end;

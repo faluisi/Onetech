@@ -2,6 +2,7 @@ pageextension 50068 PaymentJournalExtOnetech extends "Payment Journal"
 {
     layout
     {
+      
         modify("Reason Code")
         {
             trigger OnBeforeValidate();

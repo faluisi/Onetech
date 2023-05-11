@@ -86,12 +86,12 @@ report 50018 "CUSTOMERS TRIAL BALANCE"
                 column(Customer_Posting_Group; "Customer Posting Group")
                 {
                 }
-                column(sitecode; site."Site Code")
-                {
+                // column(sitecode; site."Site Code")
+                // {
 
-                }
-                column(sitename; site."Site Name")
-                { }
+                // }
+                // column(sitename; site."Site Name")
+                // { }
                 trigger OnAfterGetRecord();
                 var
                     inv: Record "Sales Invoice Header";
@@ -107,12 +107,12 @@ report 50018 "CUSTOMERS TRIAL BALANCE"
                     IF vend.GET("Customer No.") THEN;
                     if "Document Type" = "Document Type"::Invoice then begin
                         if inv.Get("Document No.") then begin
-                            if site.Get("Customer No.", inv.Site) then;
+                            //if site.Get("Customer No.", inv.Site) then;
                         end;
                     end;
                     if "Document Type" = "Document Type"::"Credit Memo" then begin
                         if crm.Get("Document No.") then begin
-                            if site.Get("Customer No.", crm.Site) then;
+                            //if site.Get("Customer No.", crm.Site) then;
                         end;
                     end;
                 end;
