@@ -1,0 +1,34 @@
+{
+  "id": "c3ef51a2-70cb-4126-9f65-465f9bd1c01b",
+  "name": "Onetech",
+  "publisher": "Default publisher",
+  "version": "1.0.2.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "platform": "1.0.0.0",
+  "application": "22.0.0.0",
+  "dependencies": [
+    {
+      "id": "287c2f5e-e9bb-40dd-bf05-b55c4a360c77",
+      "publisher": "Bluefort Ltd",
+      "name": "DrakoLtdBCExt",
+      "version": "1.0.1.7"
+    }
+    
+  ],
+  "screenshots": [],
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50249
+    }
+  ],
+  
+  "contextSensitiveHelpUrl": "https://Onetech.com/help/",
+  "runtime": "11.0"
+}

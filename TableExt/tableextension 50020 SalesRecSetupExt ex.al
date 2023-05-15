@@ -11,7 +11,7 @@ tableextension 50020 SalesRecSetupExtOnetech extends "Sales & Receivables Setup"
     var
 
 }
-pageextension 50052 SalesRecSetupExtOnetechpage extends "Sales & Receivables Setup"
+pageextension 50191 SalesRecSetupExtOnetechpage extends "Sales & Receivables Setup"
 {
     layout
     {
