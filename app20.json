@@ -39,6 +39,7 @@
       "to": 50249
     }
   ],
+  "application": "20.0.0.0",
   "contextSensitiveHelpUrl": "https://Onetech.com/help/",
   "runtime": "9.0"
 }

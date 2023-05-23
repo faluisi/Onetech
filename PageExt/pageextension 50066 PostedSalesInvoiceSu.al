@@ -4,10 +4,10 @@ pageextension 50066 PostedSalesInvSubExtOneTech extends "Posted Sales Invoice Su
     {
         addafter("VAT Prod. Posting Group")
         {
-            field("Gen. Bus. Posting Group"; "Gen. Bus. Posting Group")
-            {
-                ApplicationArea = all;
-            }
+            // field("Gen. Bus. Posting Group"; "Gen. Bus. Posting Group")
+            // {
+            //     ApplicationArea = all;
+            // }
 
         }
     }
