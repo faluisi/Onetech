@@ -1,7 +1,7 @@
 table 50008 "Groups Cust"
 {
     DataClassification = ToBeClassified;
-    LookupPageId = 50012;
+    //LookupPageId = 50012;
     fields
     {
         field(50001; "Group"; Text[100])
@@ -62,7 +62,7 @@ table 50008 "Groups Cust"
 table 50009 "SubGroups"
 {
     DataClassification = ToBeClassified;
-    LookupPageId = 50013;
+    //LookupPageId = 50013;
     fields
     {
         field(50001; "Group"; Text[100])
